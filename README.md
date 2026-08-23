@@ -97,3 +97,7 @@ cargo test --manifest-path sidecar/Cargo.toml
 ```
 
 The real acceptance fixture is under `tests/fixtures/rust-codelldb/` with its connected-Neovim bootstrap at `tests/integration/codelldb_init.lua`.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
