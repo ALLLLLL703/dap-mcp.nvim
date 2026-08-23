@@ -1,0 +1,7 @@
+/deps/
+/sidecar/target/
+/tests/fixtures/rust-codelldb/target/
+/.luarc.json.tmp
+/.codex/
+*.log
+*.swp

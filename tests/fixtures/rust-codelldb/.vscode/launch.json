@@ -1,0 +1,22 @@
+{
+  // This fixture intentionally proves JSONC and ${workspaceFolder} support.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch fixture",
+      "type": "codelldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/rust-codelldb-fixture",
+      "args": ["--pause-target"],
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+    },
+    {
+      "name": "Attach fixture",
+      "type": "codelldb",
+      "request": "attach",
+      "pid": "${env:DAP_MCP_FIXTURE_PID}",
+      "cwd": "${workspaceFolder}",
+    },
+  ],
+}
